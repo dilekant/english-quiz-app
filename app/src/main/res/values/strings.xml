@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">İngilizce Quiz</string>
+    <string name="skor">10 soruluk testi %1$d cevap vererek tamamladınız. Doğru cevap oranınız %%%2$.02f </string>
+
+</resources>

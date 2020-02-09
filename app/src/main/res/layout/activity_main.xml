@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#d79898">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/sayilar"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sayılar Testine Başla"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/yesil"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/fab1"
+            android:onClick="testClick"
+            android:layout_marginTop="-25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:elevation="12dp"
+            android:layout_marginRight="40dp"
+            android:src="@android:drawable/ic_media_play"
+            android:background="@drawable/selector_yesil"/>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:paddingTop="10dp"
+                    android:id="@+id/sayilar_image_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/renkler"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Renkler Testine Başla!"
+                    android:textColor="@color/mor"
+                    android:textSize="25dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/fab2"
+            android:onClick="testClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/ic_media_play"
+            android:elevation="12dp"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/selector_mor"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="end"
+
+            />
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/hayvanlar"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:text="Hayvanlar Testine Başla!"
+                    android:textColor="@color/sari"
+                    android:textSize="25dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/fab3"
+            android:onClick="testClick"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/ic_media_play"
+            android:elevation="12dp"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/selector_sari"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="end"
+            android:layout_marginBottom="10dp"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/meyveler"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meyveler Testine Başla"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/mavi"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/fab4"
+            android:onClick="testClick"
+            android:layout_marginTop="-25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:elevation="12dp"
+            android:layout_marginRight="40dp"
+            android:src="@android:drawable/ic_media_play"
+            android:background="@drawable/selector_mavi"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/yiyecek"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yiyecekler Testine Başla"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/kahverengi"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/fab5"
+            android:onClick="testClick"
+            android:layout_marginTop="-25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:elevation="12dp"
+            android:layout_marginRight="40dp"
+            android:src="@android:drawable/ic_media_play"
+            android:background="@drawable/selector_kahverengi"
+            android:layout_marginBottom="10dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/ulkeler"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ülkeler Testine Başla"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/kirmizi"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/fab6"
+            android:onClick="testClick"
+            android:layout_marginTop="-25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:elevation="12dp"
+            android:layout_marginRight="40dp"
+            android:src="@android:drawable/ic_media_play"
+            android:background="@drawable/selector_kirmizi"
+            android:layout_marginBottom="10dp"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            card_view:cardBackgroundColor="@color/cardview_light_background"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="8dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/meslekler"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meslekler Testine Başla"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/gri"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/fab7"
+            android:onClick="testClick"
+            android:layout_marginTop="-25dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:elevation="12dp"
+            android:layout_marginRight="40dp"
+            android:src="@android:drawable/ic_media_play"
+            android:background="@drawable/selector_gri"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

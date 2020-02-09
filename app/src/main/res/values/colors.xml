@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#AE6173</color>
+    <color name="colorPrimaryDark">#3A3732</color>
+    <color name="colorAccent">#856D40</color>
+
+    <color name="yesil">#32cd32</color>
+    <color name="mor">#c032cd</color>
+    <color name="kirmizi">#dc0521</color>
+    <color name="mavi">#3287e8</color>
+    <color name="kahverengi">#D2691E</color>
+    <color name="sari">#e8d420</color>
+    <color name="gri">#7F8C8D</color>
+</resources>

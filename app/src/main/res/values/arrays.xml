@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sayilar">
+        <item>0-Zero</item>
+        <item>1-One</item>
+        <item>2-Two</item>
+        <item>3-Three</item>
+        <item>4-Four</item>
+        <item>5-Five</item>
+        <item>6-Six</item>
+        <item>7-Seven</item>
+        <item>8-Eight</item>
+        <item>9-Nine</item>
+        <item>10-Ten</item>
+        <item>11-Eleven</item>
+        <item>12-Twelve</item>
+        <item>13-Thirteen</item>
+        <item>14-Fourteen</item>
+        <item>15-Fifteen</item>
+        <item>16-Sixteen</item>
+        <item>17-Seventeen</item>
+        <item>18-Eighteen</item>
+        <item>19-Nineteen</item>
+        <item>20-Twenty</item>
+    </string-array>
+
+
+    <string-array name="renkler">
+        <item>Siyah-Black</item>
+        <item>Beyaz-White</item>
+        <item>Sarı-Yellow</item>
+        <item>Kırmızı-Red</item>
+        <item>Yeşil-Green</item>
+        <item>Mavi-Blue</item>
+        <item>Mor-Purple</item>
+        <item>Pembe-Pink</item>
+        <item>Gri-Gray</item>
+        <item>Turuncu-Orange</item>
+        <item>Kahverengi-Brown</item>
+        <item>Bordo-Maroon</item>
+        <item>Bej-Beige</item>
+        <item>Altın-Gold</item>
+        <item>Gümüş-Silver</item>
+        <item>Turkuaz-Turquoise</item>
+        <item>Eflatun-Violet</item>
+        <item>Krem-Cream</item>
+        <item>Somon-Salmon</item>
+        <item>Lacivert-Navy Blue</item>
+    </string-array>
+
+    <string-array name="hayvanlar">
+        <item>At-Horse</item>
+        <item>Ayı-Bear</item>
+        <item>Kedi-Cat</item>
+        <item>Köpek-Dog</item>
+        <item>Kuş-Bird</item>
+        <item>Balık-Fish</item>
+        <item>Eşek-Donkey</item>
+        <item>Kaplumbağa-Turtle</item>
+        <item>Aslan-Lion</item>
+        <item>Timsah-Crocodile</item>
+        <item>Yılan-Snake</item>
+        <item>Tavşan-Rabbit</item>
+        <item>Tavuk-Chicken</item>
+        <item>Fare-Mouse</item>
+        <item>Hemstır-Hamster</item>
+        <item>Koyun-Sheep </item>
+        <item>Keçi-Goat</item>
+        <item>Horoz-Rooster</item>
+        <item>Domuz-Pig</item>
+        <item>Boğa-Bull</item>
+    </string-array>
+
+    <string-array name="meyveler">
+        <item>Elma-Apple</item>
+        <item>Muz-Banana</item>
+        <item>Böğürtlen-Blackberry</item>
+        <item>Portakal-Orange</item>
+        <item>Çilek-Strawberry</item>
+        <item>Karpuz-Watermelon</item>
+        <item>Limon-Lemon</item>
+        <item>Kiraz-Cherry</item>
+        <item>Armut-Pear</item>
+        <item>Şeftali-Peach</item>
+        <item>Greyfurt-Grapefruit</item>
+        <item>Erik-Plum</item>
+        <item>Avokado-Avocado</item>
+        <item>Nektarin-Nectarine</item>
+        <item>Mandalina-Tangerine</item>
+        <item>Ayva-Quince</item>
+        <item>Kivi-Kiwi</item>
+        <item>incir-Fig</item>
+        <item>Böğürtlen-Blackberry</item>
+        <item>Kayısı-Apricot</item>
+    </string-array>
+
+    <string-array name="yiyecekler">
+        <item>Ekmek-Bread</item>
+        <item>Şeker-Sugar</item>
+        <item>Zeytin-Olive</item>
+        <item>Dondurma-Ice Cream</item>
+        <item>Tuz-Salt</item>
+        <item>Çikolata-Chocolate</item>
+        <item>Bal-Honey</item>
+        <item>Reçel-Jam</item>
+        <item>Tereyağ-Butter</item>
+        <item>Yumurta-Egg</item>
+        <item>Peynir-Cheese</item>
+        <item>Sosis/Sucuk-Sausage</item>
+        <item>Balık-Fish</item>
+        <item>Et-Meat</item>
+        <item>Tavuk-Chicken</item>
+        <item>Salata-Salad</item>
+        <item>Çorba-Soup</item>
+        <item>Pirinç-Rice</item>
+        <item>Makarna-Pasta</item>
+        <item>Pasta-Cake</item>
+        <item>Pizza-Pizza</item>
+        <item>Sandviç-Sandwich</item>
+        <item>Tost-Toast</item>
+        <item>Yoğurt-Yogurt</item>
+        <item>Kurabiye-Cookie</item>
+        <item>Krep-Pancake</item>
+        <item>Salam-Salami</item>
+    </string-array>
+
+    <string-array name="ulkeler">
+        <item>Türkiye-Turkey</item>
+        <item>Almanya-Germany</item>
+        <item>İngiltere-England</item>
+        <item>Amerika-U.S.A(America)</item>
+        <item>İtalya-Italy</item>
+        <item>İrlanda-Ireland</item>
+        <item>Japonya-Japan</item>
+        <item>Brezilya-Brazil</item>
+        <item>Kanada-Canada</item>
+        <item>İspanya-Spain</item>
+        <item>Çin-China</item>
+        <item>Yunanistan-Greece</item>
+        <item>Portekiz-Portugal</item>
+        <item>Suriye-Syria</item>
+        <item>Mısır-Egypt</item>
+        <item>Afrika-Africa</item>
+        <item>Irak-Iraq</item>
+        <item>Hollanda-Netherland</item>
+        <item>MeksikaMexico</item>
+        <item>Norveç-Norway</item>
+        <item>Avusturya-Austria</item>
+        <item>Avustralya-Australia</item>
+        <item>Şili-Chile</item>
+        <item>Finlandya-Finland</item>
+        <item>İran-Iran</item>
+        <item>Pakistan-Pakistan</item>
+        <item>Rusya-Russia</item>
+        <item>Fransa-France</item>
+        <item>İskoçya-Scotland</item>
+        <item>Hindistan-India</item>
+        <item>Romanya-Romania</item>
+        <item>Bulgaristan-Bulgaria</item>
+        <item>Polonya-Poland</item>
+        <item>Danimarka-Denmark</item>
+        <item>Macaristan-Hungary</item>
+        <item>Arjantin-Argentina</item>
+        <item>İsviçre-Switzerland</item>
+        <item>Peru-Peru</item>
+    </string-array>
+
+    <string-array name="meslekler">
+        <item>Yazar-Author</item>
+        <item>Şair-Poet</item>
+        <item>Gazeteci-Journalist</item>
+        <item>Mimar-Architect</item>
+        <item>Reklamcı-Advertiser</item>
+        <item>Hakim-Judge</item>
+        <item>Avukat-Lawyer</item>
+        <item>Savcı-Prosecutor</item>
+        <item>Diş Hekimi-Dentist</item>
+        <item>Doktor-Doctor</item>
+        <item>Veteriner-Veterinary</item>
+        <item>Mühendis-Engineer</item>
+        <item>Öğretmen-Teacher</item>
+        <item>Öğrenci-Student</item>
+        <item>Psikolog-Psychologist</item>
+        <item>Dedektif-Detective</item>
+        <item>Şarkıcı-Singer</item>
+        <item>Müzisyen-Musician</item>
+        <item>Hemşire-Nurse</item>
+        <item>Ressam-Painter</item>
+        <item>Fotoğrafçı-Photographer</item>
+        <item>Politikacı-Politician</item>
+        <item>Sekreter-Secretary</item>
+        <item>Asker-Soldier</item>
+        <item>Çiftçi-Farmer</item>
+        <item>Şoför-Driver</item>
+        <item>Terzi-Tailor</item>
+        <item>İtfaiyeci-Fireman</item>
+        <item>Bakkal-Grocer</item>
+        <item>Manav-Greengrocer</item>
+        <item>Kuaför-Hairdresser</item>
+        <item>Ev Hanımı-House Wife</item>
+        <item>Hizmetçi-Servant</item>
+    </string-array>
+
+
+    <string-array name="serbestcalisma">
+        <item>0-Zero</item>
+        <item>1-One</item>
+        <item>2-Two</item>
+        <item>3-Three</item>
+        <item>4-Four</item>
+        <item>5-Five</item>
+        <item>6-Six</item>
+        <item>7-Seven</item>
+        <item>8-Eight</item>
+        <item>9-Nine</item>
+        <item>10-Ten</item>
+        <item>11-Eleven</item>
+        <item>12-Twelve</item>
+        <item>13-Thirteen</item>
+        <item>14-Fourteen</item>
+        <item>15-Fifteen</item>
+        <item>16-Sixteen</item>
+        <item>17-Seventeen</item>
+        <item>18-Eighteen</item>
+        <item>19-Nineteen</item>
+        <item>20-Twenty</item>
+        <item>Siyah-Black</item>
+        <item>Beyaz-White</item>
+        <item>Sarı-Yellow</item>
+        <item>Kırmızı-Red</item>
+        <item>Yeşil-Green</item>
+        <item>Mavi-Blue</item>
+        <item>Mor-Purple</item>
+        <item>Pembe-Pink</item>
+        <item>Gri-Gray</item>
+        <item>Turuncu-Orange</item>
+        <item>Kahverengi-Brown</item>
+        <item>At-Horse</item>
+        <item>Ayı-Bear</item>
+        <item>Kedi-Cat</item>
+        <item>Köpek-Dog</item>
+        <item>Kuş-Bird</item>
+        <item>Balık-Fish</item>
+        <item>Eşek-Donkey</item>
+        <item>Kaplumbağa-Turtle</item>
+        <item>Aslan-Lion</item>
+        <item>Timsah-Crocodile</item>
+        <item>Yılan-Snake</item>
+        <item>Elma-Apple</item>
+        <item>Muz-Banana</item>
+        <item>Böğürtlen-Blackberry</item>
+        <item>Portakal-Orange</item>
+        <item>Çilek-Strawberry</item>
+        <item>Karpuz-Watermelon</item>
+        <item>Limon-Lemon</item>
+        <item>Kiraz-Cherry</item>
+        <item>Armut-Pear</item>
+        <item>Şeftali-Peach</item>
+        <item>Greyfurt-Grapefruit</item>
+        <item>Ekmek-Bread</item>
+        <item>Şeker-Sugar</item>
+        <item>Zeytin-Olive</item>
+        <item>Dondurma-Ice Cream</item>
+        <item>Tuz-Salt</item>
+        <item>Çikolata-Chocolate</item>
+        <item>Bal-Honey</item>
+        <item>Tereyağ-Butter</item>
+        <item>Yumurta-Egg</item>
+        <item>Peynir-Cheese</item>
+        <item>Türkiye-Turkey</item>
+        <item>Almanya-Germany</item>
+        <item>İngiltere-England</item>
+        <item>İtalya-Italy</item>
+        <item>İrlanda-Ireland</item>
+        <item>Japonya-Japan</item>
+        <item>Brezilya-Brazil</item>
+        <item>Kanada-Canada</item>
+        <item>İspanya-Spain</item>
+        <item>Çin-China</item>
+        <item>Yunanistan-Greece</item>
+        <item>Yazar-Author</item>
+        <item>Şair-Poet</item>
+        <item>Gazeteci-Journalist</item>
+        <item>Mimar-Architect</item>
+        <item>Hakim-Judge</item>
+        <item>Avukat-Lawyer</item>
+        <item>Diş Hekimi-Dentist</item>
+        <item>Doktor-Doctor</item>
+        <item>Veteriner-Veterinary</item>
+        <item>Mühendis-Engineer</item>
+        <item>Öğretmen-Teacher</item>
+        <item>Öğrenci-Student</item>
+    </string-array>
+
+</resources>
